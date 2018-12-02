@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mn"
+    tools:context=".SignUpPage">
+
+    <EditText
+        android:id="@+id/regName"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/regEmail"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="-1dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:layout_alignRight="@+id/regEmail"
+        android:layout_marginRight="-1dp" />
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:hint="Email"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/MobNumber"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:hint="Mobile Number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/confirm_pass"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/regName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="320dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/regName"
+        android:layout_marginLeft="0dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="register" />
+
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:hint="Enter Security Key"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</RelativeLayout>

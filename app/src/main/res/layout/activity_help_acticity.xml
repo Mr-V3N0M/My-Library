@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActicity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Your digital librarian."
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textStyle="italic"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Stay connected to your business, no matter where you are.Update resource info, approve book requests, and connect with members on the go.
+
+"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Whether it's a book, journal, newspaper, or magazine enter details like the title, author, status, publisher’s name to add the resource to a central database.
+
+"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Need to enroll a new Admin? Just fill in their name, mobile number, and email address. With the powerful reporting feature, librarians can easily manage member details, keep track of borrowed books, and filter data by specifics like names or the issue status.
+
+"                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Members can use the app to request new books. Requests are recorded. The librarian can update the status of books, based on the availability of the books."                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
